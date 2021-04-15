@@ -1,10 +1,22 @@
-import './App.css';
-
+import { BrowserRouter, Route, Switch} from "react-router-dom";
+import Homepage from './components/Homepage'
 function App() {
   return (
-    <div className="App">
-      <h1>IITP</h1>
-    </div>
+    <BrowserRouter>
+       <Switch>
+          <Route
+            path="/"
+            exact="true"
+            render={(props) => <Homepage {...props} />}
+          />
+        
+
+
+          {/* If any routes are not matched with the URL */}
+          {/* <Route path="*" component={NotFound} /> */}
+
+       </Switch>
+    </BrowserRouter>
   );
 }
 
