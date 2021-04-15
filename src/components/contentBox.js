@@ -1,4 +1,4 @@
-import "./styleContentBox.css";
+import "./components/styleContentBox.css";
 
 export default function contentBox() {
   return (
