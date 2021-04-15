@@ -1,4 +1,5 @@
 import React from 'react'
+import PicSlideShow from './PicSlideShow'
 
 export default function Homepage() {
     return (
@@ -6,7 +7,7 @@ export default function Homepage() {
             <h1>IITP</h1>
             {/* Navbar */ }
 
-            {/* Photo Slider */ }
+            <PicSlideShow />
 
             {/* Welcome page with text */ }
 
