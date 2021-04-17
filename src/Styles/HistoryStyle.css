@@ -1,0 +1,21 @@
+.wrapper0 {
+  margin-right: 10%;
+  margin-top: 20px;
+  margin-left: 10%; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 10px;
+}
+.wrapper1 {
+  padding-right: 5%; 
+  padding-left: 5%; 
+  padding-bottom: 10px;
+}
+#h0 {
+  padding-top: 20px;
+  text-decoration: underline;
+  font-weight: 800;
+  /* Change font */
+}
+#h1 {
+  /* Change font */
+}
