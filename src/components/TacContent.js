@@ -1,4 +1,4 @@
-import "./aboutStyle.css";
+import "./Styles/TacStyle.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Table} from "react-bootstrap"
 
