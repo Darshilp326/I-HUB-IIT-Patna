@@ -5,7 +5,7 @@ import './activity.css'
 export default function Startup() {
     return (
         <div>
-            <PicSlideShow/>
+            <PicSlideShow content='INNOVATION & START-UP ECOSYSTEM'/>
             <section className="contact-section ptb-80">
                 <Container>
                     <Row xs={12} md={12} lg={12}>

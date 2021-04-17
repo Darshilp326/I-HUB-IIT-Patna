@@ -5,7 +5,7 @@ import './activity.css'
 export default function SkillDev() {
     return (
         <div>
-            <PicSlideShow/>
+            <PicSlideShow content="SKILL & HUMAN RSOURCE DEVELOPEMENT"/>
                 <section className="contact-section ptb-80">
                     <Container>
                         <Row xs={12} md={12} lg={12}>
