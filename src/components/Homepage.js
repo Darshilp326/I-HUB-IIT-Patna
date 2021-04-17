@@ -7,7 +7,7 @@ export default function Homepage() {
             <h1>IITP</h1>
             {/* Navbar */ }
 
-            <PicSlideShow />
+            <PicSlideShow content=""/>
 
             {/* Welcome page with text */ }
 

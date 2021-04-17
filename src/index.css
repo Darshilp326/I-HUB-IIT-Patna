@@ -29,5 +29,7 @@ code {
   padding-bottom: 60px;
   position: absolute;
   color:azure;
+  top:20%;
+  bottom:auto;
 }
 
