@@ -71,7 +71,6 @@ function ControlledCarousel({content}) {
 }
 
 function Content({content}){
-  console.log("cnt:",content);
   if(content.length==0){
     return (
       <Carousel.Caption className="slide-content">
@@ -79,8 +78,8 @@ function Content({content}){
         <h2>IIT PATNA</h2>
         <h4>(lorem ipsum)</h4>
         <img className="logo" src="./assets/images/logo.png" />
-        <p>A Govt. of India under initiative</p>
-        <p>National Mission on Interdisciplinary Cyber Physical Systems (NM-ICPS)</p>
+        <p style={{color:"#fff"}} >A Govt. of India under initiative</p>
+        <p style={{color:"#fff"}} >National Mission on Interdisciplinary Cyber Physical Systems (NM-ICPS)</p>
         <Button href="#">See How to Apply  <i className="fa fa-arrow-right"></i></Button>
       </Carousel.Caption>
     );
@@ -88,7 +87,7 @@ function Content({content}){
     return null;
   }else{
     return (
-      <Carousel.Caption className="slide-content">
+      <Carousel.Caption className="slide-content1">
         <h1>{content}</h1>
       </Carousel.Caption>
     );
@@ -96,9 +95,8 @@ function Content({content}){
 }
 
 export default function PicSlideShow(props){
-    //console.log(props.content);
     return (
-        <div className="slide-container" style={ props.content.length ? {height:"400px"} : {height:"400px"}}>
+        <div className="slide-container" style={ props.content.length ? {height:"400px"} : {height:"700px"}}>
             <ControlledCarousel style={{position:"relative"}} content={props.content}/>
             <Content content={props.content}/>
         </div>

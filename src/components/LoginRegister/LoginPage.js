@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Form, FormGroup, Col, Label, Input, Button } from 'reactstrap'; 
-import PicSlideShow from './PicSlideShow';
+import PicSlideShow from '../PicSlideShow';
+import './loginreg.css';
 
 class LoginPage extends Component {
 

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Form, FormGroup, Col, Label, Input, Button } from 'reactstrap'; 
-import PicSlideShow from './PicSlideShow';
+import PicSlideShow from '../PicSlideShow';
+import './loginreg.css';
 
 class RegisterPage extends Component {
 
@@ -30,7 +31,7 @@ class RegisterPage extends Component {
         return (
             <div>
                 <PicSlideShow content="register" />
-                <div className="login-wrap">
+                <div className="login-wrap" style={{height:"800px"}}>
                     <div className="login-html">
                         <h2 style={{color:"#fff",textAlign:"center"}}>Register</h2>
                         <div className="login-form">
