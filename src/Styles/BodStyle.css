@@ -27,6 +27,9 @@ th{
   background-color: orange;
   color: white;
 }
+td{
+  text-align: center;
+}
 #h0 {
   padding-top: 20px;
   text-decoration: underline;
