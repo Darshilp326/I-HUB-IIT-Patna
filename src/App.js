@@ -1,5 +1,7 @@
 import { BrowserRouter, Route, Switch} from "react-router-dom";
 import Homepage from './components/Homepage'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
     <BrowserRouter>

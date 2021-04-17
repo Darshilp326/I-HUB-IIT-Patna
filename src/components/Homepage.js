@@ -1,20 +1,21 @@
 import React from 'react'
+import Navbars from './Navbar/Navbar.js';
+import Footers from './Footer/Footer.js';
 
 export default function Homepage() {
     return (
         <div>
-            <h1>IITP</h1>
-            {/* Navbar */ }
+            <Navbars />
 
             {/* Photo Slider */ }
-
+           
             {/* Welcome page with text */ }
-
+            
             {/* Calendar */ }
 
-            {/* Footer */ }
-
+            <Footers />
 
         </div>
     )
 }
+
