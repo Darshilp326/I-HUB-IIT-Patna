@@ -1,0 +1,21 @@
+.contact-section {
+        background: #f9f9f6;
+        overflow-x: scroll;
+}
+.contact-section h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    position: relative;
+    color:#0e314c;
+}
+.ptb-80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.activity-content {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 5px 10px 29px 0 rgb(68 88 144 / 20%);
+    margin-bottom: 10px;
+    float: left;
+}

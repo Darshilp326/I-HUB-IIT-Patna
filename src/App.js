@@ -1,5 +1,10 @@
 import { BrowserRouter, Route, Switch} from "react-router-dom";
 import Homepage from './components/Homepage'
+import Startup from './components/Activity/Startup'
+import SkillDev from './components/Activity/SkillDev'
+import TechDev from './components/Activity/TechDev'
+import InternationalCollab from './components/Activity/InternationalCollab'
+import './App.css'
 function App() {
   return (
     <BrowserRouter>
@@ -9,7 +14,27 @@ function App() {
             exact="true"
             render={(props) => <Homepage {...props} />}
           />
-        
+          <Route
+            path="/startup"
+            exact="true"
+            render={(props) => <Startup {...props} />}
+          />
+          <Route
+            path="/skill-human-resource-development"
+            exact="true"
+            render={(props) => <SkillDev {...props} />}
+          />
+          <Route
+            path="/technology-development"
+            exact="true"
+            render={(props) => <TechDev {...props} />}
+          />
+          <Route
+            path="/international-collab"
+            exact="true"
+            render={(props) => <InternationalCollab {...props} />}
+          />
+         
 
 
           {/* If any routes are not matched with the URL */}
