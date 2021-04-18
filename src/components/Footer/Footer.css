@@ -1,0 +1,68 @@
+.footer {
+	background-color: #003865!important;
+	color: white;
+	z-index: -100!important;
+	padding-top: 20px !important;
+	}
+hr.horizontal {
+	border-top: 1px dashed white;
+	/* width: 75%;	 */
+}
+.quick-links a{
+	color : white!important;
+	text-decoration :none!important;
+	font-size : 12px ;
+}
+.footer-time {
+	font-size : 12px;
+}
+.line1 a{
+	color : white!important;
+	/* text-decoration :none!important; */
+	font-size : 15px ;
+}
+.line1 .button {
+	border-color: #E2E2E2 !important;
+	color : #E2E2E2!important;
+	background-color: transparent!important;
+	border-radius: 5px!important;
+	width: 37px;
+}
+
+/* @media only screen and (min-width:) */
+/* .line1 {
+	border-right-style: dashed;
+	border-right-color: white;
+	border-right-width: 1px;
+} */
+.line2 {
+	border-right-style: dashed;
+	border-right-color: white;
+	border-right-width: 1px;
+	border-left-style: dashed;
+	border-left-color: white;
+	border-left-width: 1px;
+	font-size: 10px;
+	padding: 15px;
+}
+hr.color-horizontal {
+	border-top: 3px solid orange;
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;	
+}
+.line3 {
+	border-right-style: dashed;
+	border-right-color: white;
+	border-right-width: 1px;
+	border-left-style: dashed;
+	border-left-color: white;
+	border-left-width: 1px;
+	font-size: 10px;
+	padding: 15px;
+}
+.post-footer {
+	background-color: #444857;
+	color : white;
+	font-size : 10px;
+	padding :  20px;
+}
