@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{setState}  from 'react';
 import './Navbar.css'
 import 'font-awesome/css/font-awesome.css';
 import {Nav , Navbar , NavbarBrand , NavItem , NavLink , NavbarText,NavbarToggler ,Collapse ,DropdownItem , DropdownMenu, DropdownToggle , UncontrolledDropdown,Dropdown , Button , ButtonGroup  } from 'reactstrap';
@@ -8,30 +8,34 @@ constructor(props){
         super(props);
         this.state={
             isOpen:false,   
-            dropdownOpen:false         
+            dropdownOpen:false,     
         };
         this.toggleNav = this.toggleNav.bind(this);
-       this.toggle=this.toggle.bind(this);
+       this.toggled=this.toggled.bind(this);
     };
-    toggleNav(){
+    toggleNav =() => {
         this.setState(
             {isOpen:!this.state.isOpen
             });
-        console.log(this.state.isOpen);
+        // console.log(this.state.isOpen);
     }
-    toggle () {
-    	this.setState({dropdownOpen : !this.state.dropdownOpen});
+    toggled = () => {
+    	this.setState({dropdownOpen : !this.state.dropdownOpen
+    	});
     	console.log(this.state.dropdownOpen)
     }
+    
+    
 
  render(){
+ 	
   return(
   <>
-   <Navbar className="Navbar container"  expand="xl">
+   <Navbar sticky className="sticky-top Navbar"  expand="xl">
   	<NavbarBrand href="/">
   	<img alt="IITP Logo" className="float-left" src="Image/logo.png" height="100" width="100" />
   	<div className="text-center nav-header float-left">
-  	<span className="ml-5 mt-5">Innovation Hub</span><br />
+  	<span className="ml-5 mt-5">Innovation Hub</span><br /><br/>
   	<span className="ml-2 mt-5">Indian Institute of Technology, Patna</span><br/>
   	</div>
   	
@@ -41,7 +45,7 @@ constructor(props){
         <Collapse className="collapser" isOpen={this.state.isOpen} navbar>
           <Nav className="mr-auto multi-level" navbar>
             <NavItem>
-              <NavLink href="/">Home</NavLink>
+              <NavLink href="/"><i className="fa fa-3x fa-home" /></NavLink>
             </NavItem>
             <NavItem>
               <UncontrolledDropdown nav inNavbar>
@@ -76,30 +80,6 @@ constructor(props){
               </DropdownToggle>
               <DropdownMenu down >
                 <DropdownItem>
-                <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle} inNavbar>
-                <DropdownToggle nav caret>
-                Thrust Areas
-                </DropdownToggle>
-                <DropdownMenu className="dropdown-submenu" right>
-                <DropdownItem>
-                Telecommunications
-                </DropdownItem>
-                <DropdownItem>
-                Power
-                </DropdownItem>
-                <DropdownItem>
-                Defence Research & Development
-                </DropdownItem>
-                <DropdownItem>
-                Road Transport & Highways
-                </DropdownItem>
-                <DropdownItem>
-                Health & Family Welfare 
-                </DropdownItem>
-                </DropdownMenu>
-                </Dropdown>
-                </DropdownItem>
-                <DropdownItem>
                 <NavLink href="#">Technology Development</NavLink>
                  
                 </DropdownItem>
@@ -117,6 +97,30 @@ constructor(props){
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+            </NavItem>
+            <NavItem>
+            	<UncontrolledDropdown nav inNavbar>
+            		<DropdownToggle nav caret>
+                Thrust Areas
+                </DropdownToggle>
+                <DropdownMenu  down>
+                <DropdownItem>
+                <NavLink href="#">Telecommunications</NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                <NavLink href="#">Power</NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                <NavLink href="#">Defence Research & Development</NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                <NavLink href="#">Road Transport & Highways</NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                <NavLink href="#">Health & Family Welfare </NavLink>
+                </DropdownItem>
+                </DropdownMenu>
+            	</UncontrolledDropdown>
             </NavItem>
             <NavItem>
             	<UncontrolledDropdown nav inNavbar>
