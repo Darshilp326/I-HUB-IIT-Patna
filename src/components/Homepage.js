@@ -34,7 +34,110 @@ export default function Homepage() {
                      </Row>
                  </Container>
             </section>
+            <section className="seminars-section">
+                <Container>
+                    <Row className="seminars">
+                        <Col xl={7}>
+                            <div className="semi-c">
+                                <h1>Seminars & Conferences</h1>
+                                <p></p>
+                                <p>The TIH on interdisciplinary and core areas of data analytics and predictive technologies bears the national mandate to bring the best of technology to bring in most visible disruptions in traditional use of age old approaches. The motives are to push technology innovation to lead the cross cutting edges, all across the globe and its time to give back to the societal uplift and benefit.</p>
+                            </div>
+                        </Col>
+                        <Col xl={5}>
+                            <div className="seminar-box">
 
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+            <section className="counter-stats">
+                <Container>
+                    <h1 className="counter-heading">Miles to go.....</h1>
+                    <Row className="counter-row">
+                    <Col className="stats" lg={2}>
+                        <div className="circle-wrapper">
+                            <div className="success circle"></div>
+                            <div className="icon">
+                            <i className="fa fa-check symbol"></i>
+                            </div>
+                            <div className="counting" data-count="15"> 
+                                 15
+                             </div>
+                            <h5>IPRS</h5>
+                        </div>
+                    </Col>
+                    <Col className="stats" lg={2}>
+                        <div className="circle-wrapper">
+                            <div className="success circle"></div>
+                            <div className="icon">
+                            <i className="fa fa-check symbol"></i>
+                            </div>
+                            <div className="counting">
+                                 15
+                            </div>
+                            <h5>IPRS</h5>
+                        </div>
+
+                    </Col>
+                    <Col className="stats" lg={2}>
+                        <div className="circle-wrapper">
+                            <div className="success circle"></div>
+                            <div className="icon">
+                            <i className="fa fa-check symbol"></i>
+                            </div>
+                            <div className="counting">
+                                 15
+                            </div>
+                            <h5>IPRS</h5>
+                        </div>
+
+                    </Col>
+                    <Col className="stats" lg={2}>
+                        <div className="circle-wrapper">
+                            <div className="success circle"></div>
+                            <div className="icon">
+                            <i className="fa fa-check symbol"></i>
+                            </div>
+                            <div className="counting">
+                                 15
+                            </div>
+                            <h5>IPRS</h5>
+                        </div>
+
+                    </Col>
+                    <Col className="stats" lg={2}>
+                        <div className="circle-wrapper">
+                            <div className="success circle"></div>
+                            <div className="icon">
+                            <i className="fa fa-check symbol"></i>
+                            </div>
+                            <div className="counting">
+                                 15
+                            </div>
+                            <h5>IPRS</h5>
+                        </div>
+
+                    </Col>
+                    <Col className="stats" lg={2}>
+                        <div className="circle-wrapper">
+                            <div className="success circle"></div>
+                            <div className="icon">
+                            <i className="fa fa-check symbol"></i>
+                            </div>
+                            <div className="counting">
+                                 15
+                            </div>
+                            <h5>IPRS</h5>
+                        </div>
+
+                    </Col>
+                    </Row>
+                    
+                </Container>
+
+            </section>
            
             {/* Welcome page with text */ }
             
