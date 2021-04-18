@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Form, FormGroup, Col, Label, Input, Button } from 'reactstrap'; 
+import Footers from '../Footer/Footer';
+import Navbars from '../Navbar/Navbar';
 import PicSlideShow from '../PicSlideShow';
 import './loginreg.css';
 
@@ -30,6 +32,7 @@ class RegisterPage extends Component {
     render() {
         return (
             <div>
+                <Navbars />
                 <PicSlideShow content="register" />
                 <div className="login-wrap" style={{height:"800px"}}>
                     <div className="login-html">
@@ -64,6 +67,7 @@ class RegisterPage extends Component {
                         </div>
                     </div>
                 </div>
+                <Footers />
             </div>
         )
     };
