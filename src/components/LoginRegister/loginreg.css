@@ -62,7 +62,7 @@ body{
 	font-size:12px;
 }
 .login-form .group .button{
-	background:#1161ee;
+	background:#1161ee !important;
 }
 
 .hr{

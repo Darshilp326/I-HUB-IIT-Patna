@@ -80,6 +80,39 @@ constructor(props){
               </DropdownToggle>
               <DropdownMenu down >
                 <DropdownItem>
+                  <Dropdown
+                    direction="right"
+                    isOpen={this.state.dropdownOpen}
+                    onMouseEnter={() =>
+                      this.toggled()
+                    }
+                    onMouseLeave={() =>
+                      this.toggled()
+                    }
+                  >
+                    <DropdownToggle nav caret>
+                      Thrust Areas
+                    </DropdownToggle>
+                    <DropdownMenu down>
+                      <DropdownItem>
+                        <NavLink href="#">Telecommunications</NavLink>
+                      </DropdownItem>
+                      <DropdownItem>
+                        <NavLink href="#">Power</NavLink>
+                      </DropdownItem>
+                      <DropdownItem>
+                        <NavLink href="#">Defence Research & Development</NavLink>
+                      </DropdownItem>
+                      <DropdownItem>
+                        <NavLink href="#">Road Transport & Highways</NavLink>
+                      </DropdownItem>
+                      <DropdownItem>
+                        <NavLink href="#">Health & Family Welfare </NavLink>
+                      </DropdownItem>
+                    </DropdownMenu>
+                  </Dropdown>
+                </DropdownItem>
+                <DropdownItem>
                 <NavLink href="#">Technology Development</NavLink>
                  
                 </DropdownItem>
@@ -97,30 +130,6 @@ constructor(props){
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
-            </NavItem>
-            <NavItem>
-            	<UncontrolledDropdown nav inNavbar>
-            		<DropdownToggle nav caret>
-                Thrust Areas
-                </DropdownToggle>
-                <DropdownMenu  down>
-                <DropdownItem>
-                <NavLink href="#">Telecommunications</NavLink>
-                </DropdownItem>
-                <DropdownItem>
-                <NavLink href="#">Power</NavLink>
-                </DropdownItem>
-                <DropdownItem>
-                <NavLink href="#">Defence Research & Development</NavLink>
-                </DropdownItem>
-                <DropdownItem>
-                <NavLink href="#">Road Transport & Highways</NavLink>
-                </DropdownItem>
-                <DropdownItem>
-                <NavLink href="#">Health & Family Welfare </NavLink>
-                </DropdownItem>
-                </DropdownMenu>
-            	</UncontrolledDropdown>
             </NavItem>
             <NavItem>
             	<UncontrolledDropdown nav inNavbar>
