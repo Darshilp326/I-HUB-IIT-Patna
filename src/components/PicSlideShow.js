@@ -15,7 +15,7 @@ function ControlledCarousel({content}) {
             className="d-block w-100"
             src="./assets/images/iitp1.png"
             alt="First slide"
-            style={ content.length ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
+            style={ content ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
           />
         </Carousel.Item>
         <Carousel.Item>
@@ -23,7 +23,7 @@ function ControlledCarousel({content}) {
             className="d-block w-100"
             src="./assets/images/iitp2.jpg"
             alt="Second slide"
-            style={ content.length ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
+            style={ content ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
           />
         </Carousel.Item>
         <Carousel.Item>
@@ -31,7 +31,7 @@ function ControlledCarousel({content}) {
             className="d-block w-100"
             src="./assets/images/iitp3.jpg"
             alt="Third slide"
-            style={ content.length ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
+            style={ content ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
           />
         </Carousel.Item>
         <Carousel.Item>
@@ -39,7 +39,7 @@ function ControlledCarousel({content}) {
             className="d-block w-100"
             src="./assets/images/iitp4.jpg"
             alt="Fourth slide"
-            style={ content.length ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
+            style={ content? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
           />
         </Carousel.Item>
         <Carousel.Item>
@@ -47,7 +47,7 @@ function ControlledCarousel({content}) {
             className="d-block w-100"
             src="./assets/images/iitp5.jpg"
             alt="Fifth slide"
-            style={ content.length ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
+            style={ content ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
           />
         </Carousel.Item>
         <Carousel.Item>
@@ -55,7 +55,7 @@ function ControlledCarousel({content}) {
             className="d-block w-100"
             src="./assets/images/iitp6.jpg"
             alt="Sixth slide"
-            style={ content.length ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
+            style={ content ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
           />
         </Carousel.Item>
         <Carousel.Item>
@@ -63,7 +63,7 @@ function ControlledCarousel({content}) {
             className="d-block w-100"
             src="./assets/images/iitp7.jpg"
             alt="Seventh slide"
-            style={ content.length ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
+            style={ content ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
           />
         </Carousel.Item>
       </Carousel>
@@ -71,7 +71,7 @@ function ControlledCarousel({content}) {
 }
 
 function Content({content}){
-  if(content.length==0){
+  if(content){
     return (
       <Carousel.Caption className="slide-content">
         <h1>WELCOME TO LOREM IPSUM</h1>
@@ -96,7 +96,7 @@ function Content({content}){
 
 export default function PicSlideShow(props){
     return (
-        <div className="slide-container" style={ props.content.length ? {height:"400px"} : {height:"700px"}}>
+        <div className="slide-container" style={ props.content ? {height:"400px"} : {height:"700px"}}>
             <ControlledCarousel style={{position:"relative"}} content={props.content}/>
             <Content content={props.content}/>
         </div>
