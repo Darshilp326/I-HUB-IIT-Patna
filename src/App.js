@@ -6,7 +6,8 @@ import TechDev from './components/Activity/TechDev'
 import InternationalCollab from './components/Activity/InternationalCollab'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import RegisterPage from "./components/LoginRegister/RegisterPage";
+import LoginPage from "./components/LoginRegister/LoginPage";
 function App() {
   return (
     <BrowserRouter>
@@ -35,6 +36,16 @@ function App() {
             path="/international-collab"
             exact="true"
             render={(props) => <InternationalCollab {...props} />}
+          />
+          <Route
+            path="/login"
+            exact
+            render={(props) => <LoginPage {...props} />}
+          />
+          <Route
+            path="/register"
+            exact
+            render={(props) => <RegisterPage {...props} />}
           />
          
 

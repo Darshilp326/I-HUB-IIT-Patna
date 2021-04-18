@@ -31,3 +31,12 @@ code {
   color:azure;
 }
 
+.slide-content1{
+	padding-bottom: 60px;
+	position: absolute;
+	color:azure;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+

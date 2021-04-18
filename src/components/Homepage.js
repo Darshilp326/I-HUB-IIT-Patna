@@ -6,7 +6,14 @@ import Footers from './Footer/Footer.js';
 export default function Homepage() {
     return (
         <div>
+
             <Navbars />
+
+            <h1>IITP</h1>
+            {/* Navbar */ }
+
+            <PicSlideShow content=""/>
+
 
             <PicSlideShow/>
            
