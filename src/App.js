@@ -5,6 +5,7 @@ import SkillDev from './components/Activity/SkillDev'
 import TechDev from './components/Activity/TechDev'
 import InternationalCollab from './components/Activity/InternationalCollab'
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import RegisterPage from "./components/LoginRegister/RegisterPage";
 import LoginPage from "./components/LoginRegister/LoginPage";
 function App() {

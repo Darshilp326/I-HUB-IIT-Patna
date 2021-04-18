@@ -1,0 +1,79 @@
+a{
+	color : black!important;
+}
+
+.toggler {
+	color : black!important;
+	background-color: #0B4D89!important;
+	border-color: black !important;
+}
+.chevron-down {
+	color: white!important;
+	margin :5px!important;
+}
+.navbar-toggler-icon {
+	color:black!important;
+}
+.Navbar {
+	background-color: white!important;
+	font-weight: 500!important;
+	
+}
+.collapser {
+	position : absolute;
+	right:50px;
+	top:12px;
+	z-index: 200!important;
+}
+.nav-header {
+	position : absolute;
+	top:30px;
+	left : 120px;
+	text-align: center; 
+	vertical-align: middle;
+}
+.btn-grp1 {
+	position : absolute!important;
+	right : 80px;
+	top : 45px;
+}
+.button {
+	border-radius: 4px!important;
+	padding : 8px 8px!important;
+	background-color: #0B4D89!important;
+}
+.btn-grp2{
+	display : none!important;
+}
+.fa {
+	font-size : 15px!important ;
+	
+}
+@media only screen and (min-width : 1200px) {
+.btn-grp1 {
+	position : absolute!important;
+	right : 50px;
+	top : 60px;
+}
+}
+@media only screen and (max-width : 890px)
+{
+	.btn-grp1 {
+		display:none!important;
+	}
+	.btn-grp2{
+		position : absolute!important;
+		right : 80px;
+		top : 45px;
+		display : block!important;
+	}
+	.nav-header {
+		display:none!important;
+	}
+} 
+@media only screen and (max-width : 1200px) {
+.collapser {
+	position : relative!important;
+	left : 0px;
+}
+}
