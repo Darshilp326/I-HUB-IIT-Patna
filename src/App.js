@@ -4,13 +4,17 @@ import Startup from './components/Activity/Startup'
 import SkillDev from './components/Activity/SkillDev'
 import TechDev from './components/Activity/TechDev'
 import InternationalCollab from './components/Activity/InternationalCollab'
+import Footer from '../src/components/Footer/Footer'
+import Navbar from '../src/components/Navbar/Navbar'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import RegisterPage from "./components/LoginRegister/RegisterPage";
 import LoginPage from "./components/LoginRegister/LoginPage";
 function App() {
   return (
+  
     <BrowserRouter>
+       <Navbar/>
        <Switch>
           <Route
             path="/"
@@ -54,6 +58,7 @@ function App() {
           {/* <Route path="*" component={NotFound} /> */}
 
        </Switch>
+       <Footer/>
     </BrowserRouter>
   );
 }

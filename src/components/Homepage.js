@@ -9,8 +9,6 @@ export default function Homepage() {
     return (
         <div>
 
-            <Navbars />
-
             <PicSlideShow content=""/>
 
             {/* Welcome page with text */ }
@@ -140,8 +138,6 @@ export default function Homepage() {
             {/* Welcome page with text */ }
             
             {/* Calendar */ }
-
-            <Footers />
 
         </div>
     )
