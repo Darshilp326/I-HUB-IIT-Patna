@@ -71,7 +71,7 @@ function ControlledCarousel({content}) {
 }
 
 function Content({content}){
-  if(content){
+  if(content==""){
     return (
       <Carousel.Caption className="slide-content">
         <h1>WELCOME TO LOREM IPSUM</h1>
@@ -80,7 +80,7 @@ function Content({content}){
         <img className="logo" src="./assets/images/logo.png" />
         <p style={{color:"#fff"}} >A Govt. of India under initiative</p>
         <p style={{color:"#fff"}} >National Mission on Interdisciplinary Cyber Physical Systems (NM-ICPS)</p>
-        <Button href="#">See How to Apply  <i className="fa fa-arrow-right"></i></Button>
+        <Button href="#" className="car-btn">See How to Apply  <i className="fa fa-arrow-right"></i></Button>
       </Carousel.Caption>
     );
   }else if(content=="login" || content=='register'){
