@@ -11,8 +11,6 @@ export default function Homepage() {
 
             <Navbars />
 
-            {/* Navbar */ }
-
             <PicSlideShow content=""/>
 
             {/* Welcome page with text */ }
