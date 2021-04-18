@@ -25,6 +25,10 @@ code {
   width: 40%;
 }
 
+.car-btn{
+  color:azure !important;
+}
+
 .slide-content{
   padding-bottom: 60px;
   position: absolute;
