@@ -1,5 +1,6 @@
 a{
 	color : black!important;
+	font-weight: 500!important;
 }
 
 .toggler {
@@ -17,7 +18,10 @@ a{
 .Navbar {
 	background-color: white!important;
 	font-weight: 500!important;
-	
+}
+.Navbar_down {
+	background-color: white!important;
+	font-weight: 500!important;
 }
 .collapser {
 	position : absolute;
@@ -31,6 +35,8 @@ a{
 	left : 120px;
 	text-align: center; 
 	vertical-align: middle;
+	/* font-family:helvetica; */
+	font-weight: bolder ;
 }
 .btn-grp1 {
 	position : absolute!important;
@@ -76,4 +82,7 @@ a{
 	position : relative!important;
 	left : 0px;
 }
+}
+.sub-menu {
+	z-index :3000!important;
 }

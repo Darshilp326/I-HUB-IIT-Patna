@@ -9,13 +9,13 @@ export default function Homepage() {
 
             <Navbars />
 
-            <h1>IITP</h1>
+            {/*<h1>IITP</h1>*/}
             {/* Navbar */ }
 
             <PicSlideShow content=""/>
 
-
-            <PicSlideShow/>
+            
+            {/*<PicSlideShow/>*/}
            
             {/* Welcome page with text */ }
             
