@@ -75,11 +75,11 @@ function Content({content}){
     return (
       <Carousel.Caption className="slide-content">
         <h2>WELCOME TO IIT PATNA VISHLESAN I-HUB FOUNDATION</h2>
-        <h2>IIT PATNA</h2>
+        <h3>IIT PATNA</h3>
         <h4>(A section 8-Not for Profit Company)</h4>
         <img className="logo" src="./assets/images/logo.png" />
-        <p style={{color:"#fff"}} >A Govt. of India Initiative under</p>
-        <p style={{color:"#fff"}} >National Mission on Interdisciplinary Cyber Physical Systems (NM-ICPS) forSpeech, Video and Text Analytics Technologies
+        <p style={{color:"#fff",textAlign:"center"}} >A Govt. of India Initiative under</p>
+        <p style={{color:"#fff",textAlign:"center"}} >National Mission on Interdisciplinary Cyber Physical Systems (NM-ICPS) forSpeech, Video and Text Analytics Technologies
 </p>
         <Button href="#" className="car-btn">See How to Apply  <i className="fa fa-arrow-right"></i></Button>
       </Carousel.Caption>
