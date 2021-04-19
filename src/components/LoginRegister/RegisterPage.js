@@ -32,7 +32,7 @@ class RegisterPage extends Component {
     render() {
         return (
             <div>
-                <Navbars />
+                
                 <PicSlideShow content="register" />
                 <div className="login-wrap" style={{height:"800px"}}>
                     <div className="login-html">
@@ -67,7 +67,7 @@ class RegisterPage extends Component {
                         </div>
                     </div>
                 </div>
-                <Footers />
+                
             </div>
         )
     };

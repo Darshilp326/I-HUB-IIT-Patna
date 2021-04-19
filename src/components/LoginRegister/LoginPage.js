@@ -31,7 +31,7 @@ class LoginPage extends Component {
 
         return (
             <div>
-                <Navbars />
+                
                 <PicSlideShow content="login" />
                 <div className="login-wrap">
                     <div className="login-html">
@@ -58,7 +58,7 @@ class LoginPage extends Component {
                         </div>
                     </div>
                 </div>
-                <Footers />
+                
             </div>
         )
     };
