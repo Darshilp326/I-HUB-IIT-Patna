@@ -1,9 +1,12 @@
-import "./Styles/TacStyle.css"
+import "../Styles/TacStyle.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Table} from "react-bootstrap"
+import PicSlideShow from './PicSlideShow';
 
 export default function TacContent() {
   return (
+    <>
+      <PicSlideShow content="THRUST AREA COORDINATORS" />
        <div className = "wrapper0">
           <div className="wrapper1">
             <h3>Thrust Area Coordinators (TAC)</h3>
@@ -30,6 +33,7 @@ export default function TacContent() {
               </tbody>
             </Table>
           </div>
-       </div>    
+       </div>  
+    </>  
   );
 }

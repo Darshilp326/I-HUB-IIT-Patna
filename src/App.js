@@ -11,6 +11,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import RegisterPage from "./components/LoginRegister/RegisterPage";
 import LoginPage from "./components/LoginRegister/LoginPage";
 import Incubation from "./components/Incubation";
+import TacContent from "./components/TacContent";
+import Boxx from "./components/Governance";
+import Bod from "./components/Bod";
+import History from "./components/History";
 function App() {
   return (
   
@@ -56,6 +60,26 @@ function App() {
             path="/incubation"
             exact="true"
             render={(props) => <Incubation {...props} />}
+          />
+          <Route
+            path="/governance"
+            exact
+            render={(props) => <Boxx {...props} />}
+          />
+          <Route
+            path="/board-of-directors"
+            exact
+            render={(props) => <Bod {...props} />}
+          />
+          <Route
+            path="/thrust-area-coord"
+            exact
+            render={(props) => <TacContent {...props} />}
+          />
+          <Route
+            path="/history-mission"
+            exact
+            render={(props) => <History {...props} />}
           />
          
 
