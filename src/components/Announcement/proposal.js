@@ -3,13 +3,15 @@ import PicSlideShow from '../PicSlideShow';
 
 export default function Proposal(props) {
     return (
-        <div className="container">
-            <PicSlideShow content="Call for Proposals Vishlesan I-HUB" />
-            <div className="m-5 wrapper1">
+        <div>
+            <PicSlideShow content="CALL FOR PROPOSALS VISHLESHAN I-HUB" />
+            <div  style={{backgroundColor:"#0B4D89"}} className="m-5 activity-content">
+            <p className="text-white">
             IIT PATNA VISHLESAN I-HUB FOUNDATION Call for Innovative and Entrepreneurial Project Proposals Under Technology Innovation Hub (TIH) of National Mission on Interdisciplinary Cyber-Physical Systems (NMICPS) for Speech, Video and Text Analytics Technologies
+            </p>
             </div>
-          <div className="text-center">
-                    <embed scroll src="PDF/proposals.pdf" width="500" height="500" />
+          <div className="text-center container mb-5">
+                    <embed scroll src="PDF/proposals.pdf" width="90%" height="500" />
           </div>
         </div>        
     )

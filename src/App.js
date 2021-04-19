@@ -88,12 +88,12 @@ function App() {
          <Route
             path="/fellowship"
             exact
-            render={(props)=>{<Fellowship {...props} />}}
+            render={(props)=><Fellowship {...props} />}
          />
          <Route
             path="/proposal"
             exact
-            render={(props)=>{<Proposal {...props} />}}
+            render={(props)=><Proposal {...props} />}
          />
          <Route
             path="/thrust-areas"

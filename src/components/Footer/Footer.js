@@ -24,16 +24,16 @@ constructor (props) {
     <hr className ="horizontal" />
     <div className="row">
     <div className="col-md-3 col-sm-6 quick-links">
-	<Link to="/board-of-directors">Administration</Link>
+	<a href="/board-of-directors">Administration</a>
     </div>
     <div className="col-md-3 col-sm-6 quick-links">
-    <Link to="/governance">Governance</Link>
+    <a href="/governance">Governance</a>
     </div>
     <div className="col-md-3 col-sm-6 quick-links">
-    <Link to="/history-mission">History & Mission</Link>
+    <a href="/history-mission">History & Mission</a>
     </div>
     <div className="col-md-3 col-sm-6 quick-links">
-    <Link to="/thrust-area-coord">Contact Us</Link>
+    <a href="/thrust-area-coord">Contact Us</a>
     </div>
     </div>
     </div>
