@@ -10,6 +10,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import RegisterPage from "./components/LoginRegister/RegisterPage";
 import LoginPage from "./components/LoginRegister/LoginPage";
+import Incubation from "./components/Incubation";
 import TacContent from "./components/TacContent";
 import Boxx from "./components/Governance";
 import Bod from "./components/Bod";
@@ -54,6 +55,11 @@ function App() {
             path="/register"
             exact
             render={(props) => <RegisterPage {...props} />}
+          />
+          <Route
+            path="/incubation"
+            exact="true"
+            render={(props) => <Incubation {...props} />}
           />
           <Route
             path="/governance"
