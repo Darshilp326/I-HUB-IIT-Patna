@@ -82,10 +82,6 @@ class RegisterPage extends Component {
         console.log("errors:",errors);
         return (
             <div>
-<<<<<<< HEAD
-                
-=======
->>>>>>> c048943f51256f90eb82b78a504c47f40f95e0b9
                 <PicSlideShow content="register" />
                 <div className="login-wrap" style={{height:"800px"}}>
                     <div className="login-html">
@@ -162,10 +158,6 @@ class RegisterPage extends Component {
                         </div>
                     </div>
                 </div>
-<<<<<<< HEAD
-                
-=======
->>>>>>> c048943f51256f90eb82b78a504c47f40f95e0b9
             </div>
         )
     };
