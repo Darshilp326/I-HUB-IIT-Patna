@@ -81,7 +81,7 @@ function Content({content}){
         <p style={{color:"#fff",textAlign:"center"}} >A Govt. of India Initiative under</p>
         <p style={{color:"#fff",textAlign:"center"}} >National Mission on Interdisciplinary Cyber Physical Systems (NM-ICPS) forSpeech, Video and Text Analytics Technologies
 </p>
-        <Button href="#" className="car-btn">See How to Apply  <i className="fa fa-arrow-right"></i></Button>
+        {/* <Button href="#" className="car-btn">See How to Apply  <i className="fa fa-arrow-right"></i></Button> */}
       </Carousel.Caption>
     );
   }else if(content=="login" || content=='register'){
