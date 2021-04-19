@@ -18,22 +18,18 @@ export default function Bod() {
           <Table striped bordered hover className="t1">
                 <thead>
                   <tr>
-                    <th>SR. No.</th>
-                    <th>Name and DESIGNATION</th>
+                    <th style={{width:"20%"}}>Sr. No.</th>
+                    <th>Name and Designation</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                       <td>01</td>
-                      <td> <strong>Dr. N. S. Rajput </strong></td>     
+                      <td> Prof. Pramod Kumar Jain, Director, IIT Patna </td>     
                   </tr>
                   <tr>
                       <td>02</td>
-                      <td> <strong>Dr. N. S. Rajput </strong> </td>                  
-                  </tr>
-                  <tr>
-                      <td>03</td>
-                      <td> <strong>Dr. N. S. Rajput </strong> </td>                     
+                      <td>Dr. Sriparna Saha, Associate Dean Research and Development, IIT Patna </td>                  
                   </tr>
                 </tbody>
             </Table>

@@ -15,6 +15,9 @@ import TacContent from "./components/TacContent";
 import Boxx from "./components/Governance";
 import Bod from "./components/Bod";
 import History from "./components/History";
+import Fellowship from "./components/Announcement/fellowship.js";
+import Proposal from "./components/Announcement/proposal.js";
+
 import ThrustArea from './components/ThrustArea'
 function App() {
   return (
@@ -82,6 +85,16 @@ function App() {
             exact
             render={(props) => <History {...props} />}
           />
+         <Route
+            path="/fellowship"
+            exact
+            render={(props)=><Fellowship {...props} />}
+         />
+         <Route
+            path="/proposal"
+            exact
+            render={(props)=><Proposal {...props} />}
+         />
          <Route
             path="/thrust-areas"
             exact="true"

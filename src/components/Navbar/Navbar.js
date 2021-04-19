@@ -1,7 +1,8 @@
 import React ,{setState}  from 'react';
 import './Navbar.css'
 import 'font-awesome/css/font-awesome.css';
-import {Nav , Navbar , NavbarBrand , NavItem , NavLink , NavbarText,NavbarToggler ,Collapse ,DropdownItem , DropdownMenu, DropdownToggle , UncontrolledDropdown,Dropdown , Button , ButtonGroup  } from 'reactstrap';
+import {Nav , Navbar , NavbarBrand , NavItem , NavLink, NavbarText,NavbarToggler ,Collapse ,DropdownItem , DropdownMenu, DropdownToggle , UncontrolledDropdown,Dropdown , Button , ButtonGroup  } from 'reactstrap';
+import { Link } from "react-router-dom";
 export default class Navbars extends React.Component{
 
 constructor(props){
@@ -45,7 +46,7 @@ constructor(props){
         <Collapse className="collapser" isOpen={this.state.isOpen} navbar>
           <Nav className="mr-auto multi-level" navbar>
             <NavItem>
-              <NavLink href="/"><i className="fa fa-3x fa-home" /></NavLink>
+              <Link className="nav-link" to="/"><i className="fa fa-3x fa-home" /></Link>
             </NavItem>
             <NavItem>
               <UncontrolledDropdown nav inNavbar>
@@ -54,19 +55,19 @@ constructor(props){
               </DropdownToggle>
               <DropdownMenu down>
                 <DropdownItem>
-                <NavLink href="#">Governance</NavLink>
+                <Link className="nav-link" to="/governance">Governance</Link>
            
                 </DropdownItem>
                 <DropdownItem>
-                <NavLink href="#"> Board Of Directors</NavLink>
+                <Link className="nav-link" to="/board-of-directors"> Board Of Directors</Link>
                  
                 </DropdownItem>
                 <DropdownItem>
-                <NavLink href="#">Conveners</NavLink>
+                <Link className="nav-link" to="/thrust-area-coord">Conveners</Link>
                   
                 </DropdownItem>
                 <DropdownItem>
-                <NavLink href="#"> History and Mission</NavLink>
+                <Link className="nav-link" to="/history-mission"> History and Mission</Link>
                  
                 </DropdownItem>
               </DropdownMenu>
@@ -80,52 +81,22 @@ constructor(props){
               </DropdownToggle>
               <DropdownMenu down >
                 <DropdownItem>
-                  <Dropdown
-                    direction="right"
-                    isOpen={this.state.dropdownOpen}
-                    onMouseEnter={() =>
-                      this.toggled()
-                    }
-                    onMouseLeave={() =>
-                      this.toggled()
-                    }
-                  >
-                    <DropdownToggle nav caret>
-                      Thrust Areas
-                    </DropdownToggle>
-                    <DropdownMenu down>
-                      <DropdownItem>
-                        <NavLink href="#">Telecommunications</NavLink>
-                      </DropdownItem>
-                      <DropdownItem>
-                        <NavLink href="#">Power</NavLink>
-                      </DropdownItem>
-                      <DropdownItem>
-                        <NavLink href="#">Defence Research & Development</NavLink>
-                      </DropdownItem>
-                      <DropdownItem>
-                        <NavLink href="#">Road Transport & Highways</NavLink>
-                      </DropdownItem>
-                      <DropdownItem>
-                        <NavLink href="#">Health & Family Welfare </NavLink>
-                      </DropdownItem>
-                    </DropdownMenu>
-                  </Dropdown>
+                    <Link className="nav-link" to="/thrust-areas">Thrust Areas</Link>                                                         
                 </DropdownItem>
                 <DropdownItem>
-                <NavLink href="#">Technology Development</NavLink>
+                <Link className="nav-link" to="/technology-development">Technology Development</Link>
                  
                 </DropdownItem>
                 <DropdownItem>
-                <NavLink href="#">Skill & Human Resource Development</NavLink>
+                <Link className="nav-link" to="/skill-human-resource-development">Skill & Human Resource Development</Link>
                   
                 </DropdownItem>
                 <DropdownItem>
-                <NavLink href="#"> Start Ups</NavLink>
+                <Link to="/startup" className="nav-link"> Start Ups</Link>
                  
                 </DropdownItem>
                 <DropdownItem>
-                <NavLink href="#"> International  Collaboration</NavLink>
+                <Link className="nav-link" to="/international-collab"> International  Collaboration</Link>
                  
                 </DropdownItem>
               </DropdownMenu>
@@ -138,32 +109,32 @@ constructor(props){
             	</DropdownToggle>
             	<DropdownMenu down >
             	<DropdownItem>
-            	<NavLink href="#">Fellowship March 2021</NavLink>
+            	<Link className="nav-link" to="/fellowship">Fellowship March 2021</Link>
             	
             	</DropdownItem>
             	<DropdownItem>
-            	<NavLink href="#">Call For Proposals<br/>Vishleshan I-HUB March 2021 </NavLink>
+            	<Link className="nav-link" to="/proposal">Call For Proposals<br/>Vishleshan I-HUB March 2021 </Link>
             	
             	</DropdownItem>
             	</DropdownMenu>
             	</UncontrolledDropdown>
             </NavItem>
             <NavItem>
-            <NavLink href="#">Incubation</NavLink>
+            <Link className="nav-link" to="/incubation">Incubation</Link>
             
             </NavItem>
             <NavItem>
-            <NavLink href="#">Tenders</NavLink>
+            <Link className="nav-link" to="#">Tenders</Link>
             </NavItem>
           </Nav>
         </Collapse>
         <ButtonGroup className="btn-grp1">
-        <Button  className="mr-3 button">Login</Button>
-        <Button  className="button" >Register</Button>
+        <Button  className="mr-3 button"><Link className="text-white" to="/login">Login</Link></Button>
+        <Button  className="button" ><Link className="text-white" to="/register">Register</Link></Button>
         </ButtonGroup>
         <ButtonGroup className="btn-grp2">
-        <Button color="primary" className="mr-1 button"><i className="fa fa-sign-in"  /></Button>
-        <Button color="primary"  className="button" ><i className="fa fa-user-plus" /></Button>
+        <Button color="primary" className="mr-1 button"><Link className="text-white" to="/login"><i className="fa fa-sign-in"  /></Link></Button>
+        <Button color="primary"  className="button" ><Link className="text-white" to="register"><i className="fa fa-user-plus" /></Link></Button>
         </ButtonGroup>
 
   </Navbar>

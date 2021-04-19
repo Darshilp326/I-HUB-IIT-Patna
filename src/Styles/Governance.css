@@ -25,20 +25,18 @@ p {
 th {
   
   text-align: center;
-  background-color: orange;
+  background-color: #0B4D89!important;
   color: white;
 }
 
 td{
   text-align: center;
+  vertical-align: middle;
 }
 #h0 {
   padding-top: 20px;
   text-decoration: underline;
   font-weight: 800;
-  /* Change font */
-}
-#h1 {
   /* Change font */
 }
 h3 {
