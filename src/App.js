@@ -15,6 +15,7 @@ import TacContent from "./components/TacContent";
 import Boxx from "./components/Governance";
 import Bod from "./components/Bod";
 import History from "./components/History";
+import ThrustArea from './components/ThrustArea'
 function App() {
   return (
   
@@ -81,7 +82,11 @@ function App() {
             exact
             render={(props) => <History {...props} />}
           />
-         
+         <Route
+            path="/thrust-areas"
+            exact="true"
+            render={(props) => <ThrustArea {...props} />}
+          />
 
 
           {/* If any routes are not matched with the URL */}
