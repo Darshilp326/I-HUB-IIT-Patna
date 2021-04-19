@@ -10,6 +10,10 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import RegisterPage from "./components/LoginRegister/RegisterPage";
 import LoginPage from "./components/LoginRegister/LoginPage";
+import TacContent from "./components/TacContent";
+import Boxx from "./components/Governance";
+import Bod from "./components/Bod";
+import History from "./components/History";
 function App() {
   return (
   
@@ -50,6 +54,26 @@ function App() {
             path="/register"
             exact
             render={(props) => <RegisterPage {...props} />}
+          />
+          <Route
+            path="/governance"
+            exact
+            render={(props) => <Boxx {...props} />}
+          />
+          <Route
+            path="/board-of-directors"
+            exact
+            render={(props) => <Bod {...props} />}
+          />
+          <Route
+            path="/thrust-area-coord"
+            exact
+            render={(props) => <TacContent {...props} />}
+          />
+          <Route
+            path="/history-mission"
+            exact
+            render={(props) => <History {...props} />}
           />
          
 
