@@ -74,12 +74,13 @@ function Content({content}){
   if(content==""){
     return (
       <Carousel.Caption className="slide-content">
-        <h1>WELCOME TO LOREM IPSUM</h1>
+        <h2>WELCOME TO IIT PATNA VISHLESAN I-HUB FOUNDATION</h2>
         <h2>IIT PATNA</h2>
-        <h4>(lorem ipsum)</h4>
+        <h4>(A section 8-Not for Profit Company)</h4>
         <img className="logo" src="./assets/images/logo.png" />
-        <p style={{color:"#fff"}} >A Govt. of India under initiative</p>
-        <p style={{color:"#fff"}} >National Mission on Interdisciplinary Cyber Physical Systems (NM-ICPS)</p>
+        <p style={{color:"#fff"}} >A Govt. of India Initiative under</p>
+        <p style={{color:"#fff"}} >National Mission on Interdisciplinary Cyber Physical Systems (NM-ICPS) forSpeech, Video and Text Analytics Technologies
+</p>
         <Button href="#" className="car-btn">See How to Apply  <i className="fa fa-arrow-right"></i></Button>
       </Carousel.Caption>
     );
