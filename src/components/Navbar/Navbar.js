@@ -31,7 +31,7 @@ constructor(props){
  	
   return(
   <>
-   <Navbar sticky className="sticky-top Navbar"  expand="xl">
+   <Navbar sticky className=" sticky-top Navbar"  expand="xl">
   	<NavbarBrand href="/">
   	<img alt="IITP Logo" className="float-left" src="Image/logo.png" height="100" width="100" />
   	<div className="text-center nav-header float-left">
