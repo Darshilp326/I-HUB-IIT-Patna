@@ -18,6 +18,7 @@ a{
 .Navbar {
 	background-color: white!important;
 	font-weight: 500!important;
+	box-shadow:rgba(0, 0, 0, 0.3) 0px 4px 8px 0px
 }
 .Navbar_down {
 	background-color: white!important;

@@ -169,13 +169,14 @@ export default function Homepage() {
            
             {/* Welcome page with text */ }
 
-            <div style={{padding: "50px",}} >
+            <div className="container" style={{padding: "50px",textAlign:"center"}} >
 
-            <RevoCalendar
+            <RevoCalendar className="m-auto"
 
                 style={{
                     borderRadius: "5px",
                     boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+                    width:"90%",
                     }}
                 
                 events={events}
