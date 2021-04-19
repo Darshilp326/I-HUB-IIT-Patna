@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { Form, FormGroup, Col, Label, Input, Button } from 'reactstrap'; 
 import PicSlideShow from '../PicSlideShow';
 import './loginreg.css';
@@ -30,7 +31,7 @@ class LoginPage extends Component {
         return (
             <div>
                 <PicSlideShow content="login" />
-                <div className="login-wrap">
+                <div className="login-wrap" style={{height:"600px",minHeight:"0px"}}>
                     <div className="login-html">
                         <h2 style={{color:"#fff",textAlign:"center"}}>Sign In</h2>
                         <div className="login-form">
@@ -49,7 +50,7 @@ class LoginPage extends Component {
                                 </FormGroup>
                                 <div className="hr"></div>
                                 <div className="foot-lnk">
-                                    <a href="#forgot">Forgot Password?</a>
+                                    <Link to="/forgot-password">Forgot Password?</Link>
                                 </div>
                             </Form>
                         </div>
