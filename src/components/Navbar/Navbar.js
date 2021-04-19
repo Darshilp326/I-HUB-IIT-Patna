@@ -81,7 +81,7 @@ constructor(props){
               </DropdownToggle>
               <DropdownMenu down >
                 <DropdownItem>
-                    <NavLink to="#">Thrust Areas</NavLink>                                                         
+                    <NavLink to="/thrust-areas">Thrust Areas</NavLink>                                                         
                 </DropdownItem>
                 <DropdownItem>
                 <Link className="nav-link" to="/technology-development">Technology Development</Link>

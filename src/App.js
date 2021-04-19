@@ -18,6 +18,7 @@ import History from "./components/History";
 import Fellowship from "./components/Announcement/fellowship.js";
 import Proposal from "./components/Announcement/proposal.js";
 
+import ThrustArea from './components/ThrustArea'
 function App() {
   return (
   
@@ -94,6 +95,13 @@ function App() {
             exact
             render={(props)=>{<Proposal {...props} />}}
          />
+         <Route
+            path="/thrust-areas"
+            exact="true"
+            render={(props) => <ThrustArea {...props} />}
+          />
+
+
           {/* If any routes are not matched with the URL */}
           {/* <Route path="*" component={NotFound} /> */}
 
