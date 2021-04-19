@@ -10,6 +10,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import RegisterPage from "./components/LoginRegister/RegisterPage";
 import LoginPage from "./components/LoginRegister/LoginPage";
+import Incubation from "./components/Incubation";
 function App() {
   return (
   
@@ -50,6 +51,11 @@ function App() {
             path="/register"
             exact
             render={(props) => <RegisterPage {...props} />}
+          />
+          <Route
+            path="/incubation"
+            exact="true"
+            render={(props) => <Incubation {...props} />}
           />
          
 
