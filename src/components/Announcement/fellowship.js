@@ -11,7 +11,7 @@ export default function Fellowship (props){
             </p>
             </div>
             <div className="text-center container mb-5">
-                <embed scroll src="PDF/fellowship.pdf" width="90%" height="500" />
+                <embed scroll src="PDF/fellowship.pdf" width="90%" height="500" className="pdf"/>
             </div>
         </div>
     )

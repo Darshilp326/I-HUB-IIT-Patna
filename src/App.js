@@ -17,8 +17,8 @@ import Bod from "./components/Bod";
 import History from "./components/History";
 import Fellowship from "./components/Announcement/fellowship.js";
 import Proposal from "./components/Announcement/proposal.js";
-
 import ThrustArea from './components/ThrustArea'
+import ForgotPassword from "./components/LoginRegister/ForgotPassword";
 function App() {
   return (
   
@@ -59,6 +59,12 @@ function App() {
             path="/register"
             exact
             render={(props) => <RegisterPage {...props} />}
+          />
+
+          <Route
+            path="/forgot-password"
+            exact
+            render={(props) => <ForgotPassword {...props} />}
           />
           <Route
             path="/incubation"
