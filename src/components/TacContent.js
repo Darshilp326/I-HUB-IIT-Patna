@@ -14,21 +14,30 @@ export default function TacContent() {
             <Table striped bordered hover className="t1">
               <thead>
                 <tr>
-                  <th>SR.No.</th>
-                  <th>Name and DESIGNATION</th>
-                  <th>E-mail ID</th>
+                  <th style={{width:"10%"}}>Sr.No.</th>
+                  <th style={{width:"20%"}}>Name</th>
+                  <th>Designation</th>
+                  <th style={{width:"30%"}}>Convener</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                     <td>01</td>
-                    <td><strong>Dr. ABC Sharma</strong></td>                            
-                    <td>abc@iitp.ac.in</td>
+                    <td> Dr. Rajiv Misra</td>  
+                    <td>Associate Professor, Department of Computer Science and Engineering</td>                          
+                    <td>Academic Activities of IIT Patna TIH</td>
                 </tr>
                 <tr>
-                    <td>01</td>
-                    <td><strong>Dr. XYZ Rajput</strong></td>                       
-                    <td>xyz@iitp.ac.in</td>
+                    <td>02</td>
+                    <td>Dr. Asif Ekbal</td>      
+                    <td>Associate Professor, Department of Computer Science and Engineering</td>                    
+                    <td>Research Activities of IIT Patna TIH</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td> Dr. Atul Thakur</td>   
+                    <td>Associate Professor, Department of Mechanical Engineering</td>                       
+                    <td>International Collaborations Activities of IIT Patna TIH</td>
                 </tr>
               </tbody>
             </Table>

@@ -10,9 +10,19 @@ export default function SkillDev() {
                     <Container>
                         <Row xs={12} md={12} lg={12}>
                             <Col>
-                              <div className="activity-content">
+                              <div style={{backgroundColor:"#0B4D89"}} className="activity-content">
                                 <h3>Skill & Human Resource Development</h3>
-                                <p>DAPT is a disruptive technologies and technology-driven system. It may pose unemployment once complete automation is undertaken. At the same time, it provides an opportunity for job seekers to create job avenues in highly skilled areas. DAPT is a global phenomenon and it operates on fusion of technologies. Therefore, India should concentrate on an interdisciplinary approach and develop cross-cutting fusion technologies. Thus, the proposed programme aims at providing the state-of-the-art training and capacity building for creation of next-generation technocrats, engineers and scientists. It will address at various segments of education system like graduates, postgraduates, Doctoral, post-doctoral, skilled and semi- skilled segments. NM-DAPT aims at addressing most of the HRD issues in a holistic manner preparing the country for the next technology revolution.</p>
+                                <p className="text-white">
+                                One of the objectives of the proposed TIH is to nurture and scale up high-end researchers' base, 
+                                Human Resource Development (HRD) and skill-sets in the emerging areas of “Speech, Video and Text Analytics”. 
+                                TIH will aim to enhance core competencies, capacity building and training to nurture innovation and start-up ecosystems 
+                                to create the world-class multi-disciplinary Technology Innovation Hub in “Speech, Video and Text Analytics”, 
+                                which will serve as the focal point for technology inputs for the industry and policy advice for the government in the allied disciplines. 
+                                Government and Industry R&D labs will be engaged as partners in the proposed TIH. Private participation to encourage professional execution and management of pilot scale research projects will be incentivised. 
+                                <br/>The proposed programme aims at providing the state-of-the-art training and capacity building for creation of next-generation technocrats, engineers and scientists in the areas of “Speech, Video and Text Analytics”. 
+                                It will address various segments of the education system like graduates, postgraduates, Doctoral, post-doctoral, skilled, and semi-skilled segments. <strong>IIT PATNA VISHLESAN I-HUB FOUNDATION </strong> 
+                                aims at addressing most of the HRD issues in a holistic manner preparing the country for the next technology revolution.
+                                </p>
                               </div>
                             </Col>
                         </Row>

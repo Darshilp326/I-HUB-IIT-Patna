@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Footer.css";
 import {ButtonGroup , Button} from 'reactstrap';
+import {Link} from 'react-router-dom';
 export default class Footers extends React.Component{
 constructor (props) {
 	super(props);
@@ -23,16 +24,16 @@ constructor (props) {
     <hr className ="horizontal" />
     <div className="row">
     <div className="col-md-3 col-sm-6 quick-links">
-    <a href="#">Administration</a>
+	<Link to="/board-of-directors">Administration</Link>
     </div>
     <div className="col-md-3 col-sm-6 quick-links">
-    <a href="#">Governance</a>
+    <Link to="/governance">Governance</Link>
     </div>
     <div className="col-md-3 col-sm-6 quick-links">
-    <a href="#">History & Mission</a>
+    <Link to="/history-mission">History & Mission</Link>
     </div>
     <div className="col-md-3 col-sm-6 quick-links">
-    <a href="#">Contact Us</a>
+    <Link to="/thrust-area-coord">Contact Us</Link>
     </div>
     </div>
     </div>
@@ -44,12 +45,12 @@ constructor (props) {
     </div>
     </div>
     <div className="row m-5">
-    	<div className="col-12 col-md-12 col-lg-4">
+    	<div className="col-12 col-md-6">
     	<div className="p-auto text-center line1">
     	<img height="120" width="120" className="m-auto" src="Image/logo.png" alt="IITP Logo" />
     	<br />
     	<h5 className="m-2">Innovation HUB </h5>
-    	<div><a  className="m-1" href="mailto:khushwahashubham9@gmail.com"><i className="fa fa-envelope mr-1" />ihub@iitp.ac.in</a></div>
+    	<div><a  className="m-1" href="mailto:vishleshan-i-hub-foundation@iitp.ac.in"><i className="fa fa-envelope mr-1" />ihub@iitp.ac.in</a></div>
     	<div>
     		<a href="/" className="m-1"><i className="fa fa-external-link mr-1" />www.ihub.iitp.ac.in</a>
     	</div>
@@ -61,60 +62,61 @@ constructor (props) {
     	</ButtonGroup>
     	</div>
     	</div>
-    	<div className="col-12 col-md-6 col-lg-4 p-1 ">
+    	<div className="col-12 col-md-6 p-1 ">
     	<h3 className=" text-center">Quick Links</h3>
     	<hr width="25%" className ="color-horizontal" />
     	<div className="line2">
-    	<div><a href="#" className="text-white">Technology Development</a></div>
+    	<div><a href="/technology-development" className="text-white">Technology Development</a></div>
     	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">Centres Of Excellence</a></div>
+    	{/* <div><a href="#" className="text-white">Centres Of Excellence</a></div> */}
+    	{/* <hr className="horizontal"/> */}
+    	<div><a href="/skill-human-resource-development" className="text-white">HR Skill Developement</a></div>
     	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">HR Skill Developement</a></div>
+    	<div><a href="/innovation" className="text-white">Innovation</a></div>
     	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">Innovation</a></div>
+    	<div><a href="/startup" className="text-white">Startup</a></div>
+    	<hr className="horizontal"/>	
+    	<div><a href="/international-collab" className="text-white">Collaboration</a></div>
     	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">Startup</a></div>
+		<div><a href="" className="text-white">Tenders</a></div>
     	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">Collaboration</a></div>
-    	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">Power Sector</a></div>
-    	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">Telecommunications</a></div>
-    	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">Health & Medicine</a></div>
-    	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">Transportation</a></div>
-    	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">Defence</a></div>
+    	{/* <div><a href="#" className="text-white">Power Sector</a></div> */}
+    	{/* <hr className="horizontal"/> */}
+    	{/* <div><a href="#" className="text-white">Telecommunications</a></div> */}
+    	{/* <hr className="horizontal"/> */}
+    	{/* <div><a href="#" className="text-white">Health & Medicine</a></div> */}
+    	{/* <hr className="horizontal"/> */}
+    	{/* <div><a href="#" className="text-white">Transportation</a></div> */}
+    	{/* <hr className="horizontal"/> */}
+    	<div><a href="#" className="text-white">Thrust Area</a></div>
  		</div>
     	</div>
-    	<div className="col-12 col-md-6 col-lg-4">
+    	{/* <div className="col-12 col-md-6 col-lg-4">
     	<h3 className=" text-center">Quick Links</h3>
     	<hr width="25%" className ="color-horizontal" />
-    	<div className="line3">
-    	<div><a href="#" className="text-white">Awards</a></div>
-    	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">NIRF</a></div>
-    	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">Tenders</a></div>
-    	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">QIP</a></div>
-    	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">DoSA</a></div>
-    	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">DoRD</a></div>
-    	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">DoRA</a></div>
-    	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">DoFA</a></div>
-    	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">DoAA</a></div>
-    	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">Unnat Bharat</a></div>
-    	<hr className="horizontal"/>
-    	<div><a href="#" className="text-white">Positions Available</a></div>
- 		</div>
-    	</div>
+    	<div className="line3"> */}
+    	{/* <div><a href="#" className="text-white">Awards</a></div> */}
+    	{/* <hr className="horizontal"/> */}
+    	{/* <div><a href="#" className="text-white">NIRF</a></div> */}
+    	{/* <hr className="horizontal"/> */}
+    	
+    	{/* <div><a href="#" className="text-white">QIP</a></div> */}
+    	{/* <hr className="horizontal"/> */}
+    	{/* <div><a href="#" className="text-white">DoSA</a></div> */}
+    	{/* <hr className="horizontal"/> */}
+    	{/* <div><a href="#" className="text-white">DoRD</a></div> */}
+    	{/* <hr className="horizontal"/> */}
+    	{/* <div><a href="#" className="text-white">DoRA</a></div> */}
+    	{/* <hr className="horizontal"/> */}
+    	{/* <div><a href="#" className="text-white">DoFA</a></div> */}
+    	{/* <hr className="horizontal"/> */}
+    	{/* <div><a href="#" className="text-white">DoAA</a></div> */}
+    	{/* <hr className="horizontal"/> */}
+    	{/* <div><a href="#" className="text-white">Unnat Bharat</a></div> */}
+    	{/* <hr className="horizontal"/> */}
+    	{/* <div><a href="#" className="text-white">Positions Available</a></div> */}
+ 		{/* </div> */}
+    	{/* </div> */}
     </div>
    </div>
    </div>
