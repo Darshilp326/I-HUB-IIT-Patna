@@ -6,7 +6,8 @@
     font-size: 25px;
     margin-bottom: 20px;
     position: relative;
-    color:#0e314c;
+    color:#fff !important;
+    text-align: center;
 }
 .ptb-80 {
     padding-top: 80px;

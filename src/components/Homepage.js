@@ -50,9 +50,11 @@ export default function Homepage() {
                         />
                         </Col>
                         <Col xl={6}>
-                        <h2>I-DAPT HUB FOUNDATION</h2>
+                        <h2>VISHLESHAN I-HUB FOUNDATION</h2>
                         <h4>Indian Institute of Technology,Patna</h4>
-                        <p>We are the nodal centre and a Technology Innovation Hub (TIH) for technology development and activities in “Data Analytics and Predictive Technologies” and other related areas under National Mission on Interdisciplinary Cyber Physical Systems (NMICPS).</p>
+                        <p>
+                        We are the nodal center and a Technology Innovation Hub (TIH) for technology development and activities in “Speech, Video, and Text Analytics Technologies” and other related areas under National Mission on Interdisciplinary Cyber-Physical Systems (NMICPS)."  
+                        </p>
                         </Col>
                      </Row>
                  </Container>
@@ -64,8 +66,10 @@ export default function Homepage() {
                             <div className="semi-c">
                                 <h1>Seminars & Conferences</h1>
                                 <p></p>
-                                <p>The TIH on interdisciplinary and core areas of data analytics and predictive technologies bears the national mandate to bring the best of technology to bring in most visible disruptions in traditional use of age old approaches. The motives are to push technology innovation to lead the cross cutting edges, all across the globe and its time to give back to the societal uplift and benefit.</p>
-                            </div>
+                                <p>
+                                Under the proposed TIH, IIT Patna aims to promote translational research in CPS technologies, especially in “Speech, Video and Text Analytics”. Various tools and techniques by using the latest AI based techniques for various real-life problems emcompassing the inputs of speech, video and text will be developed. Various real-life problems collected from various domains like tourism, judiciary, railways, border management, security, environment, forest and climate change, education and health, electronics and IT, road transport, housing and urban affairs will be solved under the research activities of TIH. Advanced tools and techniques for handling the speech, video and text data will be designed. The target would be to develop methodologies involving “Speech, Video and Text Analytics” to solve various problems in Indian context.    
+                                </p>
+                            </div>    
                         </Col>
                         <Col xl={5}>
                             <div className="seminar-box">
@@ -75,7 +79,7 @@ export default function Homepage() {
                     </Row>
                 </Container>
             </section>
-            <section className="counter-stats">
+            {/* <section className="counter-stats">
                 <Container>
                     <h1 className="counter-heading">Miles to go.....</h1>
                     <Row className="counter-row">
@@ -160,7 +164,7 @@ export default function Homepage() {
                     
                 </Container>
 
-            </section>
+            </section> */}
 
             <br/><br/>
             <br/><br/>
