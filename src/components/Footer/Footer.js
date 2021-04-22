@@ -50,7 +50,7 @@ constructor (props) {
     	<img height="120" width="120" className="m-auto" src="Image/logo-min.png" alt="IITP Logo" />
     	<br />
     	<h5 className="m-2">Innovation HUB </h5>
-    	<div><a  className="m-1" href="mailto:vishleshan-i-hub-foundation@iitp.ac.in"><i className="fa fa-envelope mr-1" />ihub@iitp.ac.in</a></div>
+    	<div><a  className="m-1" href="mailto:vishleshan-i-hub-foundation@iitp.ac.in"><i className="fa fa-envelope mr-1" />vishleshan-i-hub-foundation@iitp.ac.in</a></div>
     	<div>
     		<a href="/" className="m-1"><i className="fa fa-external-link mr-1" />www.ihub.iitp.ac.in</a>
     	</div>
