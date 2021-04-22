@@ -11,7 +11,7 @@ export default function Incubation() {
                     <Row xs={12} md={12} lg={12}>
                         <Col>
                           <div style={{backgroundColor:"#0B4D89"}} className="activity-content">
-                            <h3>Innovation, Entrepreneurship and Start-up Ecosystem:</h3>
+//                             <h3>Innovation, Entrepreneurship and Start-up Ecosystem:</h3>
                             <p className="text-white">Some incubation activities will start soon under the umbrella of TIH @ IIT Patna</p>
                             </div>
                         </Col>
