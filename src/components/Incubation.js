@@ -11,10 +11,8 @@ export default function Incubation() {
                     <Row xs={12} md={12} lg={12}>
                         <Col>
                           <div style={{backgroundColor:"#0B4D89"}} className="activity-content">
-                            <h3>Innovation, Entrepreneurship and Start-up Ecosystem:</h3>
-                            <p className="text-white">To enhance core competencies, capacity building and training to nurture innovation and Start-up ecosystem.</p>
-                            <p  className="text-white">The international novelty standard operates in a cycle wherein innovative ideas are funded to generate prototypes and get patents leading to a series of start-ups. Established industry players lookout for technologies through patent portals however, this paradigm is loosely operating in India. An analysis of International Patents data will be the huge problem that India is facing in the area of monetization of innovations.</p>
-                          </div>
+                            <p className="text-white">Some incubation activities will start soon under the umbrella of TIH @ IIT Patna</p>
+                            </div>
                         </Col>
                     </Row>
                 </Container>

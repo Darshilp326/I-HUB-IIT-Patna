@@ -7,7 +7,7 @@ export default function History() {
       <PicSlideShow content="HISTORY AND MISSION" />
       <div style={{backgroundColor:"#0B4D89"}} className="wrapper0">
         <div  className="wrapper1">
-          <p id="h0"><h3 style={{fontWeight:"bold"}}>IIT Patna Vishleshan i-Hub Foundation</h3></p>
+          <p id="h0" style={{textDecorationColor:"white",textAlign:"center"}}><h3 style={{fontWeight:"bold",color:"white"}}>IIT Patna Vishleshan i-Hub Foundation</h3></p>
           <p id="h1" className="text-white">
           We propose to establish a Technology Innovation Hub (TIH) named as “IIT Patna Vishlesan i-Hub Foundation” in the area of “Speech, Video and Text Analytics” which aims to create a strong and seamless ecosystem for leveraging the potential and exponential growth of interdisciplinary cyber physical systems (ICPSs). The Centre will mark an impact to the nation by facilitating the creation of national competence in essential technologies of future and by catalyzing the translation of that technology into useable applications for greater welfare of the society. The CPS expertise available at the Indian Institute of Technology Patna (IITP) as well as in the country will facilitate and integrate the nationwide efforts of the start-up India program for knowledge generation, innovation, product development, and commercialization. Developing technologies in Speech, Text, and Video Analytics has been in the forefront of many multinational R&D companies, such as Google, Amazon, Microsoft, Facebook, IBM, Uber etc. Several academic institutions all over in the world such as Stanford, MIT, UC Berkley, USA; DFKI, Darmstadt University, University of Aachen, Edinburgh University, Cambridge University in Europe and UK; NUS, NTNU, Kyoto University, Tokyo University in Asia; and IIT Bombay, IISC Bangalore, IIIT Hyderabad, IIT Madras, IIT Kanpur, IIT Delhi, IIT Kharagpur etc. in India have been involved in active research and development in the broad areas of Speech, Video and Text Analytics. While several Government funded R&D institutions such as CDAC Pune, CDAC Noida, CDAC Kolkata, CILL Mysore have been exploring research and developments in Speech, Video and Text Analytics, Technology Development in Indian Languages (TDIL), MeITY, Govt. of India has been promoting Research and Development with the vision of digital unite and knowledge for all, especially in Indian languages.
 
@@ -17,9 +17,7 @@ d itself as a leading institution of Research and Development in “Speech, Vide
 Analytics” by publishing its research in the well-acclaimed journals and conferences, 
 undertaking important R&D projects duly sponsored by the various Government agencies such as 
 MeITY, SERB, DRDO, MHRD; and Industries such as Elsevier, Accenture, LG Soft, Samsung Research, 
-Honeywell, Wipro, Bosch etc. As per the CS ranking, it ranks 14th in Asia and 1st in India for Natural Language Processing
-research in terms of publications during the last 5 years (2015-2020). 
-Under the umbrella of “Centre of Excellence for Artificial Intelligence”, several research groups, 
+Honeywell, Wipro, Bosch etc. Under the umbrella of “Centre of Excellence for Artificial Intelligence”, several research groups, 
 viz. Artificial Intelligence-Natural Language Processing-Machine Learning, 
 Data Analytics and Network Science Lab, Centre for Endangered Language Studies and groups 
 working in the areas of Computer Vision, Image Processing, IoT, Big Data Analytics, Robotics etc. 
@@ -69,10 +67,7 @@ Technology Innovation Hub in “Speech, Video and Text Analytics”, which will 
 focal point for technology inputs for the industry and policy advice for the government in the
 allied disciplines. Government and Industry R&D labs will be engaged as partners in the
 proposed TIH. Private participation to encourage professional execution and management of
-pilot scale research projects will be incentivized. Under the umbrella of TIH, a CPS-TBI with a
-focus on “Speech, Video and Text Analytics” will also be set-up. Existing facilities at IIT Patna
-(Incubation Centre, IIT Patna and/or TBI, IIT Patna) will be utilized to foster close collaboration
-with the entrepreneurship ecosystem.<br/><br/>
+pilot scale research projects will be incentivized.<br/><br/>
 Another major objective of the proposed TIH is to enhance core competencies, capacity
 building and training to nurture innovation and Start-up ecosystem in the areas of “Speech,
 Video and Text Analytics”. IIT Patna TIH aims to equip the incubate entity with all the world

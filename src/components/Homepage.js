@@ -45,7 +45,7 @@ export default function Homepage() {
                         <Col xl={6} >
                         <img
                           className="d-block w-100"
-                          src="./assets/images/iitp4.jpg"
+                          src="./assets/images/iitp4-min.jpg."
                           alt="Sixth slide"
                         />
                         </Col>

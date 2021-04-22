@@ -13,7 +13,7 @@ function ControlledCarousel({content}) {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./assets/images/iitp1.png"
+            src="./assets/images/iitp1-min.png"
             alt="First slide"
             style={ content ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
           />
@@ -21,7 +21,7 @@ function ControlledCarousel({content}) {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./assets/images/iitp2.jpg"
+            src="./assets/images/iitp2-min.jpg"
             alt="Second slide"
             style={ content ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
           />
@@ -29,7 +29,7 @@ function ControlledCarousel({content}) {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./assets/images/iitp3.jpg"
+            src="./assets/images/iitp3-min.jpg"
             alt="Third slide"
             style={ content ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
           />
@@ -37,7 +37,7 @@ function ControlledCarousel({content}) {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./assets/images/iitp4.jpg"
+            src="./assets/images/iitp4-min.jpg"
             alt="Fourth slide"
             style={ content? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
           />
@@ -45,7 +45,7 @@ function ControlledCarousel({content}) {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./assets/images/iitp5.jpg"
+            src="./assets/images/iitp5-min.jpg"
             alt="Fifth slide"
             style={ content ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
           />
@@ -53,7 +53,7 @@ function ControlledCarousel({content}) {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./assets/images/iitp6.jpg"
+            src="./assets/images/iitp6-min.jpg"
             alt="Sixth slide"
             style={ content ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
           />
@@ -61,7 +61,7 @@ function ControlledCarousel({content}) {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./assets/images/iitp7.jpg"
+            src="./assets/images/iitp7-min.jpg"
             alt="Seventh slide"
             style={ content ? {minHeight:"400px",maxHeight:"400px"} : {minHeight:"700px",maxHeight:"700px"}}
           />
@@ -77,7 +77,7 @@ function Content({content}){
         <h2>WELCOME TO IIT PATNA VISHLESAN I-HUB FOUNDATION</h2>
         <h3>IIT PATNA</h3>
         <h4>(A section 8-Not for Profit Company)</h4>
-        <img className="logo" src="./assets/images/logo.png" />
+        <img className="logo" src="./assets/images/logo-min-1.png" />
         <p style={{color:"#fff",textAlign:"center"}} >A Govt. of India Initiative under</p>
         <p style={{color:"#fff",textAlign:"center"}} >National Mission on Interdisciplinary Cyber Physical Systems (NM-ICPS) forSpeech, Video and Text Analytics Technologies
 </p>
