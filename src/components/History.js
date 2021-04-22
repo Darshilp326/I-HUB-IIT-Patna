@@ -17,9 +17,7 @@ d itself as a leading institution of Research and Development in “Speech, Vide
 Analytics” by publishing its research in the well-acclaimed journals and conferences, 
 undertaking important R&D projects duly sponsored by the various Government agencies such as 
 MeITY, SERB, DRDO, MHRD; and Industries such as Elsevier, Accenture, LG Soft, Samsung Research, 
-Honeywell, Wipro, Bosch etc. As per the CS ranking, it ranks 14th in Asia and 1st in India for Natural Language Processing
-research in terms of publications during the last 5 years (2015-2020). 
-Under the umbrella of “Centre of Excellence for Artificial Intelligence”, several research groups, 
+Honeywell, Wipro, Bosch etc. Under the umbrella of “Centre of Excellence for Artificial Intelligence”, several research groups, 
 viz. Artificial Intelligence-Natural Language Processing-Machine Learning, 
 Data Analytics and Network Science Lab, Centre for Endangered Language Studies and groups 
 working in the areas of Computer Vision, Image Processing, IoT, Big Data Analytics, Robotics etc. 
@@ -69,10 +67,7 @@ Technology Innovation Hub in “Speech, Video and Text Analytics”, which will 
 focal point for technology inputs for the industry and policy advice for the government in the
 allied disciplines. Government and Industry R&D labs will be engaged as partners in the
 proposed TIH. Private participation to encourage professional execution and management of
-pilot scale research projects will be incentivized. Under the umbrella of TIH, a CPS-TBI with a
-focus on “Speech, Video and Text Analytics” will also be set-up. Existing facilities at IIT Patna
-(Incubation Centre, IIT Patna and/or TBI, IIT Patna) will be utilized to foster close collaboration
-with the entrepreneurship ecosystem.<br/><br/>
+pilot scale research projects will be incentivized.<br/><br/>
 Another major objective of the proposed TIH is to enhance core competencies, capacity
 building and training to nurture innovation and Start-up ecosystem in the areas of “Speech,
 Video and Text Analytics”. IIT Patna TIH aims to equip the incubate entity with all the world
