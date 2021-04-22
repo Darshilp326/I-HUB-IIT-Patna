@@ -11,10 +11,8 @@ export default function Bod() {
         <div className="wrapper1">
           <p id="h0">Board of Directors</p>
           <p id="h1">
-            The Indian Institute of Technology Patna has constituted a Hub
-            Governing Body for Technology Innovation Hub (TIH) under National
-            Mission on Interdisciplinary Cyber Physical Systems (NM-ICPS).
-          </p>
+          The board of directors of IIT PATNA VISHLESAN I-HUB FOUNDATION are:        
+            </p>
           <Table striped bordered hover className="t1">
                 <thead>
                   <tr>
