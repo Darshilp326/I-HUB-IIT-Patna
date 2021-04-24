@@ -47,7 +47,7 @@ constructor (props) {
     <div className="row m-5">
     	<div className="col-12 col-md-6">
     	<div className="p-auto text-center line1">
-    	<img height="120" width="120" className="m-auto" src="Image/logo-min.png" alt="IITP Logo" />
+    	<img height="120" width="120" className="m-auto" src="Image/logo.png" alt="IITP Logo" />
     	<br />
     	<h5 className="m-2">Innovation HUB </h5>
     	<div><a  className="m-1" href="mailto:vishleshan-i-hub-foundation@iitp.ac.in"><i className="fa fa-envelope mr-1" />vishleshan-i-hub-foundation@iitp.ac.in</a></div>
