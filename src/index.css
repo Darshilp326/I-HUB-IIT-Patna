@@ -21,8 +21,9 @@ code {
 }
 
 .logo{
-  height: 40%;
+  max-height: 60%;
   width: 40%;
+  object-fit: contain;
 }
 
 .car-btn{
@@ -30,6 +31,7 @@ code {
 }
 
 .slide-content{
+  top:0%;
   padding-bottom: 60px;
   position: absolute;
   color:azure;
