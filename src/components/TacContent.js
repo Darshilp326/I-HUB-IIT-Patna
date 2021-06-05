@@ -6,10 +6,10 @@ import PicSlideShow from './PicSlideShow';
 export default function TacContent() {
   return (
     <>
-      <PicSlideShow content="THRUST AREA COORDINATORS" />
+      <PicSlideShow content="CONVENERS" />
        <div className = "wrapper0">
           <div className="wrapper1">
-            <h3>Thrust Area Coordinators (TAC)</h3>
+            <h3>CONVENERS</h3>
             <p>The Indian Institute of Technology Patna has designated the following faculty members as the conveners of different activities of the Technology Innovation Hub (TIH) under the National Mission on Interdisciplinary Cyber-Physical Systems (NM-ICPS).</p>
             <Table striped bordered hover className="t1">
               <thead>

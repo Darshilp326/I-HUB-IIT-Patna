@@ -8,8 +8,8 @@ export default function Incubation() {
             <PicSlideShow content='INNOVATION ECOSYSTEM'/>
             <section className="contact-section ptb-80">
                 <Container>
-                    <Row xs={12} md={12} lg={12}>
-                        <Col>
+                    <Row>
+                        <Col xs={12} md={12} lg={12}>
                           <div style={{backgroundColor:"#0B4D89"}} className="activity-content">
                             <p className="text-white">Some incubation activities will start soon under the umbrella of TIH @ IIT Patna</p>
                             </div>

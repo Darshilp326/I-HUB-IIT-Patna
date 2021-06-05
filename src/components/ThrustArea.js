@@ -11,7 +11,7 @@ export default function ThrustArea() {
                     <Row xs={12} md={12} lg={12}>
                         <Col>
                           <div style={{backgroundColor:"#0B4D89"}} className="activity-content">
-                            <h3>Thrust Area</h3>
+                            <h3>Thrust Areas</h3>
                             <p className="text-white">
                             The multidisciplinary Vishlesan I-Hub Foundation at IIT Patna under Technology Incubation Hub (TIH) targets to leverage Research and Engineering capabilities of Sustainable Development Goals and achieve the mandate of National Mission on Interdisciplinary Cyber Physical Systems. The Vishlesan I-Hub Foundation at IIT Patna promotes the progression of Technology Readiness Level (TRL) for development of indigenous system mainly in the broad areas of “Speech, Video and Text Analytics” in the following application domains:
 
