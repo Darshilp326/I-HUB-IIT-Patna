@@ -78,7 +78,7 @@ constructor (props) {
     	<hr className="horizontal"/>	
     	<div><a href="/international-collab" className="text-white">Collaboration</a></div>
     	<hr className="horizontal"/>
-		<div><a href="" className="text-white">Tenders</a></div>
+		<div><a href="#" className="text-white">Tenders</a></div>
     	<hr className="horizontal"/>
     	{/* <div><a href="#" className="text-white">Power Sector</a></div> */}
     	{/* <hr className="horizontal"/> */}
@@ -88,7 +88,7 @@ constructor (props) {
     	{/* <hr className="horizontal"/> */}
     	{/* <div><a href="#" className="text-white">Transportation</a></div> */}
     	{/* <hr className="horizontal"/> */}
-    	<div><a href="#" className="text-white">Thrust Area</a></div>
+    	<div><a href="/thrust-areas" className="text-white">Thrust Areas</a></div>
  		</div>
     	</div>
     	{/* <div className="col-12 col-md-6 col-lg-4">
