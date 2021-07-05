@@ -52,7 +52,7 @@ constructor (props) {
     	<h5 className="m-2">Innovation HUB </h5>
     	<div><a  className="m-1" href="mailto:vishleshan-i-hub-foundation@iitp.ac.in"><i className="fa fa-envelope mr-1" />vishleshan-i-hub-foundation@iitp.ac.in</a></div>
     	<div>
-    		<a href="http://www.iitp.ac.in/~tih" className="m-1"><i className="fa fa-external-link mr-1" />www.iitp.ac.in/~tih</a>
+    		<a href="http://www.iitp.ac.in/" className="m-1"><i className="fa fa-external-link mr-1" />www.iitp.ac.in/</a>
     	</div>
     	<ButtonGroup>
     		<Button className="m-1 button"><i className="fa fa-facebook"/></Button>
@@ -122,7 +122,7 @@ constructor (props) {
    </div>
    <div className="post-footer text-center">
    <div className="text-center">
-   	<i className="fa fa-copyright"/> 2020-2021 | Indian Institute Of Technology , Patna. All Rights Reserved.
+   	<i className="fa fa-copyright"/> 2020-2021 | Indian Institute of Technology Patna. All Rights Reserved.
    </div>
    </div>
    </>

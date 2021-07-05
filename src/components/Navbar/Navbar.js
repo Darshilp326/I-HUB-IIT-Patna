@@ -37,7 +37,7 @@ constructor(props){
   	<img alt="IITP Logo" className="float-left" src="Image/logo-min.png" height="100" width="100" />
   	<div className="text-center nav-header float-left">
   	<span className="ml-5 mt-5">Innovation Hub</span><br /><br/>
-  	<span className="ml-2 mt-5">Indian Institute of Technology, Patna</span><br/>
+  	<span className="ml-2 mt-5">Indian Institute of Technology Patna</span><br/>
   	</div>
   	
   	</NavbarBrand>
