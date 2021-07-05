@@ -54,12 +54,12 @@ constructor (props) {
     	<div>
     		<a href="http://www.iitp.ac.in/" className="m-1"><i className="fa fa-external-link mr-1" />www.iitp.ac.in/</a>
     	</div>
-    	<ButtonGroup>
+    	{/* <ButtonGroup>
     		<Button className="m-1 button"><i className="fa fa-facebook"/></Button>
     		<Button className="m-1 button"><i className="fa fa-twitter"/></Button>
     		<Button className="m-1 button"><i className="fa fa-instagram"/></Button>
     		<Button className="m-1 button"><i className="fa fa-linkedin"/></Button>
-    	</ButtonGroup>
+    	</ButtonGroup> */}
     	</div>
     	</div>
     	<div className="col-12 col-md-6 p-1 ">
